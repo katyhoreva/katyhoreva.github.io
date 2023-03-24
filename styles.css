@@ -1,0 +1,149 @@
+body{
+    background-color: #fffff7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    /*margin-bottom: 3rem;*/
+}
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+header > img{
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    background-color: #FEFAE0;
+}
+
+ul li{
+    display: inline-block;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+a:link{
+    color: #18623b;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #0f4613;
+}
+
+.container{
+    overflow: hidden;
+    
+}
+
+#video-text{
+    display:block;
+    margin-top: -120vh;
+    margin-bottom: 43vh;
+    margin-left: 60vw;
+    text-align: right;
+    width: 30vw;
+}
+
+#video-text > h1{
+    font-family: 'Abril Fatface';
+    font-size: 5em;
+    color: #fffff7;
+}
+
+#video-text > p{
+    color: #fffff7;
+    font-size: 1.1em;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+    margin: 1vw;
+    background-color: #fcf3da8a;
+    /*border: 0.1em solid #d0ac80;*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 2vw;
+}
+
+button{
+    display: inline-block;
+    padding: 1em 3em;
+    text-align: center;
+    background-color: #fffff7;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+article button{
+    padding: 1em 3em;
+    text-align: center;
+    background-color: #E9EDC9;
+    border-radius: 20px;
+    border: 2px solid #CCD5AE;
+    font-size: 0.8em;
+}
+
+/*#quote{
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+
+}
+*/
+footer{
+    display: flex;
+    background-color: #E9EDC9;
+    padding: 2vw;
+}
+
+footer div{
+    flex: 1;
+}
+
+div > img{
+    width: 5vw;
+}
